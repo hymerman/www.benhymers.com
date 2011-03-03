@@ -1,0 +1,148 @@
+@import url(reset.css);
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	background-color: #f1f1f1;
+	}
+
+ul, ol {
+	list-style-type: none;
+	}
+
+strong {
+	font-weight: bold;
+	}
+	
+em {
+	font-style: italic;
+	}
+
+a	{
+	text-decoration: none;
+	}
+
+a:link, a:visited {
+	color: #069;
+	}
+
+a:hover, a:active {
+	color: #6cf;
+	}
+
+a img	{border: none;}
+
+#wrap {
+	width: 960px;
+	margin: 1em auto;
+	text-align: left;
+	background-color: #fff;
+	border-radius: 1em;
+	}
+
+#header {
+	width: 100%;
+	padding: 0;
+	background-color: #6cf;
+	border-radius: 1em 1em 0 0;
+	}
+
+#header h1 {
+	padding-top: 0.8em;
+	margin-bottom: 0.1em;
+	font-size: 3em;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	}
+
+
+#subtitle {
+	padding: 0 0 1em 0;
+	}
+	
+#subtitle p {
+	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	}
+	
+#links {
+	padding: 1em 0 0.3em 0;
+	}
+
+#links p {
+	text-align: center;
+	color: #fff;
+	}
+
+#links p span.icon {
+	padding: 0 0.5em 0 0.5em;
+	}
+
+#header a:link, #header a:visited, #footer a:link, #footer a:visited {
+	color: #fff;
+	}
+
+#header a:hover, #header a:active, #footer a:hover, #footer a:active {
+	color: #069;
+	}
+	
+.section {
+	margin: 0 2em 0 2em;
+	}
+
+.section h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.5em 0 1em 0;
+	text-align: center;
+	color: #069;
+	}
+
+.section p {
+	line-height: 1.5em;
+	margin-bottom: 2em;
+	}
+
+div.subsection {
+	overflow: hidden;
+	width: 100%;
+}
+
+.subsection h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 0.5em 0 1em 0;
+	text-align: left;
+	color: #069;
+	}
+
+img.gamescreenshot {
+	height: 180px;
+	width: 240px;
+	float: right;
+	}
+
+#screenshotlist img {
+	margin: 0.3em;
+	border: 1px solid #bbb;
+	padding: 5px;
+	background-color: #ddd;
+	}
+
+#footer {
+	margin-top: 1em;
+	width: 100%;
+	background-color: #6cf;
+	border-radius: 0 0 1em 1em;
+	}
+
+#footer p {
+	padding: 0.5em;
+	text-align: center;
+	}
