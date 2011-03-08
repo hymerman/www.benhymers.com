@@ -5,7 +5,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 0.8em;
 	color: #ddd;
-	background-color: #123;
+	background-color: #172a40;
 	}
 
 ul, ol {
@@ -25,24 +25,24 @@ a	{
 	}
 
 a:link, a:visited {
-	color: #CBE86B;
+	color: #c8b36b;
 	}
 
 a:hover, a:active {
-	color: #CBE86B;
+	color: #c8b8f;
 	}
 
 a img	{border: none;}
 
 hr {
-border: 0 #CCC solid;
+/*border: 0 #FF6B6B solid;*/
 margin: 0;
 outline: 0;
 clear: both;
 height: 0;
 margin-bottom: 20px;
-border-top: 1px solid #999;
-border-bottom: 1px dashed #666;
+border-top: 1px solid #6c90bc;
+border-bottom: 1px dashed #8ba1bc;
 margin-left: 10px;
 margin-right: 10px;
 padding: 2px 0 0;}
