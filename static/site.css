@@ -171,10 +171,12 @@ div.gamescreenshot {
 	margin-bottom: 2em;
 	}
 
-.gamelinks ul {
+ul.gamelinks {
+	margin-top: 1em;
+	margin-bottom: 1em;
 	}
 
-.gamelinks li {
+li.gamelinks {
 	line-height: 1.5em;
 	/*text-align: center;*/
 	}
