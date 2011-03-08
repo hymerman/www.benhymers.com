@@ -3,81 +3,88 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="author" content="Ben Hymers" />
-	<meta name="description" content="The personal website of Ben Hymers, video game developer." />
+	<meta name="description" content="Ben Hymers' portfolio website" />
 	<meta name="keywords" content="ben hymers, hymers, cities in the sky, cits, banditos" />
 	<title>Ben Hymers' website</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="site.css" />
 </head>
 <body>
-	<div id="wrap">
+	<div id="wrap" class="container_12">
 	<div id="header">
-		<h1>Ben Hymers' website</h1>
-		<div id="subtitle">
-			<p>The personal website of Ben Hymers, video game developer.</p>
-		</div>
-		<div id="links">
-			<p><a href="http://blog.benhymers.com/tag/cities-in-the-sky">Development blog</a><span class="icon">&bull;</span><a href="#about">About</a><span class="icon">&bull;</span><a href="#games">Games</a></p>
+		<h1 class="grid_4">Ben Hymers</h1>
+		<div id="links" class="grid_4 push_4">
+			<ul><li><a href="http://blog.benhymers.com">Blog</a></li><li><a href="http://www.linkedin.com/in/benhymers">LinkedIn</a></li><li><a href="http://en-gb.facebook.com/ben.hymers">Facebook</a></li><li><a href="https://github.com/hymerman">GitHub</a></li></ul>
 		</div>
 	</div>
-	<div id="content">
-	<div id="about" class="section">
-		<h2>About me</h2>
-		<div id="background" class="subsection">
-			<h3>Background</h3>
-			<p>Some stuff about education and experience</p>
+	<div id="content" class="clearfix">
+	<div id="about" class="section clearfix">
+		<hr>
+		<div id="experience" class="subsection grid_4">
+			<h3>Experience</h3>
+			<p>I graduated from Warwick University in 2007, with a 1st class MEng in Computer Science. I went straight from this into a job at Rare Ltd., where I currently work as a Gameplay Software Engineer, programming for the Xbox 360 and Kinect. I worked on the very successful Kinect Sports as the main gameplay engineer on table tennis, and had worked on various prototypes before that.</p>
 		</div>
-		<div id="interests" class="subsection">
-			<h3>Interests</h3>
-			<p>What I'm interested in and how I do things</p>
-		</div>
-		<div id="skills" class="subsection">
+		<div id="skills" class="subsection grid_4">
 			<h3>Skills</h3>
-			<p>Some stuff about what I can do</p>
+			<p>I consider myself highly skilled in C++, but I could learn any language I need to. I have also used C# and Python. All of my professional experience is with C++ on the Xbox 360, but in my own time I also develop for Windows and Linux PCs.</p>
+		</div>
+		<div id="style" class="subsection grid_4">
+			<h3>Style</h3>
+			<p>In general, I would say my style is modern and disciplined, but pragmatic. I'm always looking for ways to improve what I do, and have no problem spending time revamping anything that's not perfect. Change is good. The pragmatic side of me knows the cost of change and of other priorities though, so I know when something is "good enough".</p>
+		</div>
+		<hr>
+		<div id="interests1" class="subsection grid_6">
+			<h3>Areas of interest</h3>
+			<p>The thing I enjoy most is gameplay programming. To me, that's game logic, controls, cameras, AI, physics, animation: all the bits that define the 'fun' of the experience. Iterating quickly on prototypes with a designer or by myself, or polishing and tweaking things until they shine - it's all brilliant.</p>
+		</div>
+		<div id="interests2" class="subsection grid_6">
+			<h3>&nbsp;</h3><!-- to get things to align nicely -->
+			<p>I'm also interested in the development process side of things: continuous integration, automated testing, project management, and so on. It's completely different to the creative job of gameplay programming, but there's a strange part of me that craves organisation too!</p>
 		</div>
 	</div>
-	<div id="games" class="section">
-		<h2>Games</h2>
-		<div id="citiesinthesky" class="subsection">
+	<hr>
+	<div id="games" class="section clearfix">
+		<h3 class="grid_12">Games</h3>
+		<div id="citiesinthesky" class="subsection grid_4">
+			<div class="gamescreenshot"><a href="http://www.citiesinthesky.co.uk"><img alt="Cities in the Sky" src="cits_screenshot.jpg"/></a></div>
 			<h3>Cities in the Sky</h3>
-			<a href="http://www.citiesinthesky.co.uk"><img class="gamescreenshot" alt="Cities in the Sky" src="cits_screenshot.jpg"/></a>
 			<p>Cities in the Sky is a game about building on a floating island whilst keeping it balanced, and keeping the little people living on it alive.</p>
 			<p>I've been developing it on and off since I was at university; it was originally intended as a portfolio piece but now serves more as a sort of test-bed for my development ideas. It is still progressing as a game of course, just very slowly due to my day job and due to me testing out new things on it!</p>
 			<p>It's written in C++, using several middleware libraries (OGRE, Bullet, irrKlang, OIS). The 'engine' part of it is a separate library, 'bengine' (I know), which is also in use by Banditos. It has a very flexible game object system based around components, which I have spent a lot of time designing and implementing.</p>
 			<p>I'm the only programmer on CITS, and I'm also doing the modelling, texturing, rigging, animation, 2D art, sound and music. I figure it's an excellent way to get a deep understanding of the whole of the game development process!</p>
-			<ul class="links">
+			<h4>Links</h4>
+			<ul class="gamelinks">
 				<li><a href="http://blog.benhymers.com/tag/cits">Development blog</a></li>
 				<li><a href="http://www.citiesinthesky.co.uk">Website</a></li>
 				<li><a href="http://www.citiesinthesky.co.uk#screenshots">Screenshots</a></li>
 				<li><a href="http://www.citiesinthesky.co.uk#videos">Videos</a></li>
 			</ul>
 		</div>
-		<div id="banditos" class="subsection">
+		<div id="banditos" class="subsection grid_4">
+			<div class="gamescreenshot"><a href="http://www.banditosgame.com"><img alt="Banditos vs. Federales" src="banditos_screenshot.jpg"/></a></div>
 			<h3>Banditos vs. Federales</h3>
-			<a href="http://www.banditosgame.com"><img class="gamescreenshot" alt="Banditos vs. Federales" src="banditos_screenshot.jpg"/></a>
 			<p>A local multiplayer stealth game, pitting a team of banditos trying to steal everything they can, against a team of federales trying to stop them.</p>
 			<p>Banditos vs. Federales is a game I am developing with some colleagues from Rare, outside of work, for a bit of fun. We're massive fans of local multiplayer games, especially cooperative games with competitive undertones. Banditos was born out of the need for a perfect lunchtime game to play at work!</p>
 			<p>Like CITS, Banditos is programmed in C++ using several middleware libraries, tied together using bengine. The flexibility of bengine's object system means programming gameplay is mostly a case of writing script-like components, and composing objects from those.</p>
-			<ul class="links">
+			<h4>Links</h4>
+			<ul class="gamelinks">
 				<li><a href="http://blog.benhymers.com/tag/banditos">Development blog</a></li>
 				<li><a href="http://www.banditosgame.com">Website</a></li>
 			</ul>
 		</div>
-		<div id="kinectsports" class="subsection">
+		<div id="kinectsports" class="subsection grid_4">
+			<div class="gamescreenshot"><a href="http://www.rare.co.uk/games/sport"><img alt="Kinect Sports" src="kinectsports_screenshot.jpg"/></a></div>
 			<h3>Kinect Sports</h3>
-			<a href="http://www.rare.co.uk/games/sport"><img class="gamescreenshot" alt="Kinect Sports" src="kinectsports_screenshot.jpg"/></a>
-			<p>Kinect Sports is the current #1 sports game for the Xbox Kinect sensor, which at the time of writing has sold around 2.72 million copies <a href="http://gamrreview.vgchartz.com/sales/45607/kinect-sports/">according to VGChartz</a>.</p>
-			<p>I worked on Kinect Sports as a gameplay engineer, working solely on the table tennis, one of the six sports included. I was the only programmer working on the sport full-time, but there were two programmers including myself working on it regularly.</p>
+			<p>Kinect Sports is the current #1 sports game for the Xbox Kinect sensor, which at the time of writing has sold around 2.76 million copies <a href="http://gamrreview.vgchartz.com/sales/45607/kinect-sports/">according to VGChartz</a>.</p>
+			<p>I worked on Kinect Sports as a gameplay engineer, working solely on the table tennis, one of the six sports included. I was the only programmer working on the sport full-time, but there was one other programmer working on it regularly.</p>
 			<p>On table tennis, I wrote the Kinect gestures, game logic, AI, animation, physics, and plenty of other assorted bits that needed doing. It was of course a massive challenge since programming for Kinect is a genuinely new area of technology, but the reviews and sales indicate that I did well :).</p>
 			<p>It feels good knowing that I am literally one of the most experienced Kinect gesture programmers in the world, having been involved in Kinect Sports and various unreleased prototypes from a very early stage.</p>
-			<ul class="links">
+			<h4>Links</h4>
+			<ul class="gamelinks">
 				<li><a href="http://www.rare.co.uk/games/sport">Official website</a></li>
 				<li><a href="http://www.mobygames.com/game/kinect-sports">MobyGames page</a></li>
 			</ul>
 		</div>
 	</div>
-	</div>
-	<div id="footer">
-		<p id="footer_links"><a href="http://blog.benhymers.com">Blog</a><span class="icon">&bull;</span><a href="http://www.citiesinthesky.co.uk">Cities in the sky</a><span class="icon">&bull;</span><a href="http://www.banditosgame.com">Banditos</a></p>
 	</div>
 	</div>
 	<script type="text/javascript">
