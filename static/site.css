@@ -6,35 +6,35 @@ body {
 	font-size: 13px;
 	color: #ddd;
 	background-color: #172a40;
-	}
+}
 
 ul, ol {
 	list-style-type: none;
-	}
+}
 
 strong {
 	font-weight: bold;
-	}
+}
 	
 em {
 	font-style: italic;
-	}
+}
 
 a {
 	text-decoration: none;
-	}
+}
 
 a:link, a:visited {
 	color: #c8b36b;
-	}
+}
 
 a:hover, a:active {
 	color: #ebdaa0;
-	}
+}
 
 a img {
 	border: none;
-	}
+}
 
 hr {
 	margin: 0 10px 20px 10px;
@@ -44,7 +44,13 @@ hr {
 	border-top: 1px solid #6c90bc;
 	border-bottom: 1px dashed #8ba1bc;
 	padding: 2px 0 0;
-	}
+}
+
+#games hr {
+	margin-bottom: 10px;
+	border-top: none;
+}
+
 
 h1 {
 	margin-top: 0.8em;
@@ -52,7 +58,7 @@ h1 {
 	font-size: 3em;
 	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
 	font-weight: bold;
-	}
+}
 
 ul#links {
 	margin-top: 1em;
@@ -66,7 +72,7 @@ h2 {
 	font-weight: bold;
 	margin-bottom: 20px;
 	text-align: left;
-	}
+}
 
 h3 {
 	line-height: 2em;
@@ -79,20 +85,34 @@ p {
 	line-height: 1.5em;
 	margin-bottom: 1.5em;
 	text-align: justify;
-	}
+}
 
 div.gamescreenshot {
-	margin-bottom: 2em;
-	}
+	margin-left: 2em;
+	float:right;
+}
 
-ul.gamelinks {
+.gamelinks ul {
 	margin-top: 1em;
-	margin-bottom: 1em;
-	line-height: 1.5em;
-	}
+	margin-bottom: 3em;
+}
+
+.gamelinks li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+.gamelinks  li:before {
+	content: " | ";
+}
+
+.gamelinks  li:first-child:before {
+	content: none;
+}
 
 #footer p {
 	font-size: 0.8em;
 	margin-bottom: 1em;
 	text-align: left;
-	}
+}
